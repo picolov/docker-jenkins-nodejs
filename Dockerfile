@@ -2,7 +2,6 @@ FROM jenkins:alpine
 
 MAINTAINER Acris Liu "acrisliu@gmail.com"
 
-ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 7.9.0
 
 # Switch to root user
@@ -12,7 +11,6 @@ RUN apk add --no-cache \
         libstdc++ \
     && apk add --no-cache --virtual .build-deps \
         binutils-gold \
-        curl \
         g++ \
         gcc \
         gnupg \
@@ -51,7 +49,7 @@ RUN apk add --no-cache \
 
 ENV YARN_VERSION 0.22.0
 
-RUN apk add --no-cache --virtual .build-deps-yarn curl gnupg \
+RUN apk add --no-cache --virtual .build-deps-yarn gnupg \
   && for key in \
     6A010C5166006599AA17F08146C2130DFD2497F5 \
   ; do \
