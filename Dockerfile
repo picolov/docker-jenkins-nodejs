@@ -1,5 +1,7 @@
 FROM jenkins:alpine
 
+MAINTAINER Acris Liu "acrisliu@gmail.com"
+
 ENV NPM_CONFIG_LOGLEVEL info
 ENV NODE_VERSION 7.9.0
 
