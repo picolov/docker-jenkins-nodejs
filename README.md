@@ -6,6 +6,7 @@ Current version:
 - Node.js: 7.9.0
 
 ![Jenkins](http://jenkins-ci.org/sites/default/files/jenkins_logo.png "Jenkins")
+
 ![Node.js](https://nodejs.org/static/images/logos/nodejs.png "Node.js")
 
 ## Quick Start
