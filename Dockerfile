@@ -8,9 +8,7 @@ ENV NODE_VERSION 7.9.0
 # Switch to root user
 USER root
 
-RUN addgroup -g 1005 node \
-    && adduser -u 1005 -G node -s /bin/sh -D node \
-    && apk add --no-cache \
+RUN apk add --no-cache \
         libstdc++ \
     && apk add --no-cache --virtual .build-deps \
         binutils-gold \
