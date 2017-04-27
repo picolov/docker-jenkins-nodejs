@@ -2,7 +2,7 @@
 This Dockerfile build an image for [Jenkins](https://jenkins.io/) with [Node.js](https://nodejs.org/), based on Alpine Linux.
 
 Current version:
-- Jenkins: 2.46.1
+- Jenkins: 2.46.2
 - Node.js: 7.9.0
 
 ![Jenkins](http://jenkins-ci.org/sites/default/files/jenkins_logo.png "Jenkins")  
