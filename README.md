@@ -2,9 +2,9 @@
 This Dockerfile build an image for [Jenkins](https://jenkins.io/) with [Node.js](https://nodejs.org/) and [Yarn](https://yarnpkg.com/), based on Alpine Linux.
 
 Current version:
-- Jenkins: 2.46.2
+- Jenkins: 2.46.3
 - Node.js: 7.10.0
-- Yarn: 0.24.4
+- Yarn: 0.24.6
 
 ![Jenkins](http://jenkins-ci.org/sites/default/files/jenkins_logo.png "Jenkins")  
 
