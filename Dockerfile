@@ -2,7 +2,7 @@ FROM jenkins:alpine
 
 MAINTAINER Acris Liu "acrisliu@gmail.com"
 
-ENV NODE_VERSION 8.1.2
+ENV NODE_VERSION 8.1.4
 
 # Switch to root user
 USER root
@@ -29,7 +29,7 @@ RUN apk add --no-cache \
     && rm -Rf "node-v$NODE_VERSION" \
     && rm "node-v$NODE_VERSION.tar.xz"
 
-ENV YARN_VERSION 0.24.6
+ENV YARN_VERSION 0.27.5
 
 RUN curl -fSL -o /usr/local/bin/yarn "https://github.com/yarnpkg/yarn/releases/download/v$YARN_VERSION/yarn-$YARN_VERSION.js" \
     && chmod +x /usr/local/bin/yarn
