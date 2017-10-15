@@ -1,6 +1,6 @@
 FROM jenkins/jenkins:lts-alpine
 
-MAINTAINER Acris Liu "acrisliu@gmail.com"
+MAINTAINER Picolov "picolov@gmail.com"
 
 ENV NODE_VERSION 8.5.0
 
