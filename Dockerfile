@@ -34,7 +34,7 @@ ENV YARN_VERSION 1.0.2
 RUN curl -fSL -o /usr/local/bin/yarn "https://github.com/yarnpkg/yarn/releases/download/v$YARN_VERSION/yarn-$YARN_VERSION.js" \
     && chmod +x /usr/local/bin/yarn
     
-RUN npm install -g angular-cli
+RUN npm install -g @angular/cli
 
 # Switch to jenkins user
 USER jenkins
